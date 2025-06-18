@@ -2,8 +2,7 @@ let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 10;
 
 function exibirTextoNaTela(tag, texto) {
-    let campos = document.querySelector(tag);
-    // tste
+    let campo = document.querySelector(tag);
     campo.innerHTML = texto;
 }
 
